@@ -38,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- View my Solution on [Frontend Mentor](https://www.frontendmentor.io/solutions/expenses-chart-component-with-chartjs-M4kzpN_mMq)
+- View the Live Site [here](https://kxnzx.github.io/expenses-chart-component/)
 
 ## My process
 
