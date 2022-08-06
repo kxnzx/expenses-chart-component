@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="stylesheet/style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <title>Frontend Mentor | Expenses chart component</title>
+  </head>
+  <body>
+    <!-- Main landmark is included for users of assistive technology -->
+    <main>
+      <section>
+        <header>
+          <div class="title">
+            <h1>My balance</h1>
+            <strong>$921.48</strong>
+          </div>
+          <img class="logo" src="images/logo.svg" alt="Logo" />
+        </header>
+        <div class="card">
+          <h2>Spending - Last 7 days</h2>
+          <div class="container">
+            <!-- Transparent element for the Vertical Bar Chart -->
+            <canvas id="chart" width="300" height="200"> </canvas>
+          </div>
+          <hr />
+          <div class="total">
+            <p class="monthly_total">Total this month<span> $478.33</span></p>
+            <p class="monthly_percentage">
+              <span>+2.4%</span><br />
+              from last month
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://www.frontendmentor.io/profile/kxnzx" target="_blank"
+          >kxnzx </a
+        >.
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
