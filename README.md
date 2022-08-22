@@ -43,7 +43,7 @@ Users should be able to:
 
 ## My process
 
-- HTML semantics
+- HTML Semantics
 - Importing Google Fonts
 - Set variables
 - Reset default settings
